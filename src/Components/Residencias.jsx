@@ -10,7 +10,7 @@ import Modal from "./Modal";
 
 
 
-const Business = () =>  { 
+const Residencias = () =>  { 
 
   const [t] = useTranslation("global");
 
@@ -77,4 +77,4 @@ const Business = () =>  {
   )
 };
 
-export default Business;
+export default Residencias;
