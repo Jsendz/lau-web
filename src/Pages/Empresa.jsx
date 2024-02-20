@@ -6,9 +6,9 @@ const Empresa = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className='h-full 2xl:h-screen w-full flex flex-col justify-around items-center my-10 2xl:my-20'>
+    <div className='h-full 2xl:h-screen w-full flex flex-col justify-around items-center lg:my-10 2xl:my-20'>
         <div className='max-w-5xl mx-auto flex flex-col' >
-          <div className='my-20 '>
+          <div className=' my-10 xl:my-20 '>
             <h3 className='text-4xl sm:text-5xl font-extrabold antialiased my-10 text-slate-700'>{t("empresa.titulo")}</h3>
             <p className='text-xl text-slate-600 text-left pl-5 mt-20'>{t("empresa.paragrafo")}</p>
           </div>
