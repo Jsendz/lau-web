@@ -1,7 +1,14 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Home from "./Home"
-import Servicios from "./Servicios";
+import Activa from "./Activa";
+import Pasiva from "./Pasiva";
+import Residencias from "./Residencias";
+import Options from "./Options";
+import About from "./About";
+
+
+
 
 
 
@@ -12,5 +19,9 @@ export {
   Navbar,
   Home,
   Footer,
-  Servicios,
+  Activa,
+  Pasiva,
+  Residencias,
+  Options,
+  About,
 };
