@@ -3,7 +3,7 @@ import React from 'react'
 import styles, { layout } from "../style";
 
 import { house } from '../assets/index.js';
-import Modal from './Modal';
+import Modal from '../Components/Modal';
 
 
 const FeatureCard = ({ icon, title, content, index }) => (

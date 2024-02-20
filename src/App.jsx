@@ -1,9 +1,16 @@
 
-import { Forest } from './assets';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import Navbar from './Components/Navbar';
+import Home from './Components/Home';
+import Footer from './Components/Footer';
+import Residencia from './Pages/Residencia';
+import Activa from './Pages/Activa';
+import Inmobiliaria from './Pages/Inmobiliaria';
+import Consergeria from './Pages/Consergeria';
+import Options from './Components/Options';
 
-import {Navbar, Before2, Business, Inmobiliaria,Footer, Activa, Pasiva, Consergeria } from './Components/index.js';
 
 
 
@@ -12,28 +19,18 @@ function App() {
  
   return (
        
-<div >
-    <div style={{ backgroundImage: `url(${Forest})`,backgroundSize: 'cover' }}>
+<Router >
    <Navbar />
-    <Before2 />
-    </div>
-   
-    
-    
-    <Business />
-    <Activa />
-    <Pasiva />
-    <Inmobiliaria />
-    <Consergeria />
-    
-
-    
+   <Home />
+   <Options />
+    <Routes>
+        <Route path="/Residencia" element={<Residencia />} />
+        <Route path="/Empresa" element={<Activa />} />
+        <Route path="/Inmobiliaria" element={<Inmobiliaria />} />
+        <Route path="/Consergeria" element={<Consergeria />} />
+      </Routes>
     <Footer />
-    
-    
-
-
-</div>
+</Router>
   )
 }
 

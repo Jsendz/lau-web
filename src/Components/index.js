@@ -1,12 +1,9 @@
 import Navbar from "./Navbar";
-import Business from "./Business";
+import Business from "../Pages/Business";
 import Footer from "./Footer";
-import Before2 from "./Before2"
+import Home from "./Home"
 import Servicios from "./Servicios";
-import Pasiva from "./Pasiva";
-import Activa from "./Activa";
-import Inmobiliaria from "./Inmobiliaria";
-import Consergeria from "./Consergeria";
+
 
 
 
@@ -15,12 +12,9 @@ import Consergeria from "./Consergeria";
 export {
   Navbar,
   Business,
-  Before2,
+  Home,
   Footer,
   Servicios,
-  Consergeria,
-  Pasiva,
-  Activa,
-  Inmobiliaria,
+  
   
 };

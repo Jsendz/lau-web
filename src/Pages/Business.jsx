@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
 import {star, shield, send} from "../assets";
 
-import Modal from "./Modal";
+import Modal from "../Components/Modal";
 
 
 
