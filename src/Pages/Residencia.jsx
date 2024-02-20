@@ -1,15 +1,13 @@
-import React from 'react'
-import Activa from './Activa'
-import Business from './Business'
-import Pasiva from './Pasiva'
+import React from 'react';
+import { Activa, Pasiva, Residencias } from '../Components';
 
 
 const Residencia = () => {
   return (
     <div>
-        <Business />
-        <Activa />
+        <Residencias />
         <Pasiva />
+        <Activa />
     </div>
   )
 }

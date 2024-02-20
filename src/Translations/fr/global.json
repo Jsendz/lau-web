@@ -11,6 +11,13 @@
 
     },
 
+    "immo": {
+        "titulo": "Immobilier.",
+        "paragrafo":"L'une des étapes les plus importantes est de trouver un logement en Andorre, c'est pourquoi chez HillTop Agency, avec 10 ans d'expérience dans le secteur immobilier, nous souhaitons faciliter la recherche de nos clients en nous occupant personnellement de tout le processus. Nous nous adaptons aux besoins de chaque client afin d'assurer la meilleure qualité de service et d'expérience.",
+        "boton": "Contactez-nous"
+
+    },
+
     "residencia": {
         "titulo": "Residence en Andorre",
         "paragrafo":"Chez HILLTOP AGENCY, nous vous accompagnerons tout au long du processus de résidence en Andorre qui correspond le mieux à vos besoins, en facilitant le processus à tout moment afin que vous puissiez en profiter le plus rapidement possible.",
@@ -68,5 +75,31 @@
         "sisparagrafo": "Lorsque vous ne pouvez pas être présent, nous le serons pour vous. Nous offrons une présence sur place pour surveiller et sécuriser votre propriété, recevoir des livraisons, coordonner des services et vous offrir la tranquillité d'esprit en votre absence, en veillant à ce que tout soit en parfait état à votre retour."
         
 
+    },
+
+    "empresa": {
+        "titulo":"Société",
+        "paragrafo":"Chez Hilltop Agency, nous sommes spécialisés dans la fourniture de services complets qui simplifient et accélèrent l&#39;ensemble du processus pour les entreprises souhaitant réaliser un investissement étranger ou exercer des activités en leur nom propre en Andorre.",
+        "unotitulo":"Demande de Réservation de Nom Commercial:",
+        "unoparagrafo": "Nous assurons l&#39;identité de votre entreprise dès le départ avec une réservation de nom commercial efficace.",
+        "dostitulo": "Autorisation pour l&#39;Investissement Étranger:",
+        "dosparagrafo": "Nous gérons la demande et l&#39;obtention de l&#39;autorisation gouvernementale pour les investissements étrangers.",
+        "trestitulo":"Constitution de la Société:",
+        "tresparagrafo": "Nous facilitons la rédaction publique de la constitution devant un notaire andorran, offrant une base légale solide pour votre entreprise.",
+        "fortitulo": "Inscription dans les Registres Pertinents:",
+        "forparagrafo": "Nous nous occupons de l&#39;inscription au Registre des Sociétés et au Registre du Commerce et/ou de l&#39;Industrie, garantissant la conformité légale.",
+        "cinctitulo":"Accompagnement dans la Recherche d&#39;Espaces:", 
+        "cincparagrafo": "Nous vous soutenons dans la recherche de locaux ou de logements adaptés à vos opérations commerciales.",
+        "sistitulo":"Accompagnement Bancaire:", 
+        "sisparagrafo": "Nous simplifions le processus bancaire pour une transition fluide et sécurisée.",
+        "setitulo":"Demande d&#39;Ouverture de Commerce ou d&#39;Industrie:", 
+        "separagrafo": "Nous gérons la demande et la procédure auprès de la Commune correspondante, assurant la conformité réglementaire.",
+        "otitulo":"Demande de Code Fiscal NRT et Inscription à la CASS:", 
+        "oparagrafo": "Nous gérons les formalités fiscales et de sécurité sociale pour votre entreprise.",
+        "nutitulo":"Entreprises d&#39;Andorre:", 
+        "nuparagrafo": "Nous proposons des services administratifs sur mesure pour les entreprises locales, adaptés à leurs besoins spécifiques."
+        
+
     }
+
 }

@@ -1,36 +1,127 @@
-import React from 'react'
+import React from 'react';
 import { immobiliaria, consergeria, residencia, empresa } from '../assets/index.js';
-import {useTranslation} from "react-i18next";
 import { Link } from 'react-router-dom';
+import {useTranslation} from "react-i18next";
+import  { useState, useEffect } from 'react';
+import { BsHouseLock } from "react-icons/bs";
+import { SlDocs } from "react-icons/sl";
+import { MdOutlineBusinessCenter } from "react-icons/md";
+import { GiHouseKeys } from "react-icons/gi";
+
+
 
 const Options = () => {
+    
+  
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    };
+  
 
     const [t] = useTranslation("global");
 
+    
+
   return (
     <div>
-        <div className="w-full h-full lg:h-[20%] bg-slate-800 bg-no-repeat fixed b-2">
-        <div className=" flex flex-col lg:flex-row justify-evenly lg:justify-around items-center p-3 h-full w-full max-w-[1440px] 2xl:mx-auto ">
-    <div className="flex flex-row lg:justify-around w-full mb-5 lg:-mt-10  ">
-    <div className=" shadow-2xl rounded-xl bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:cursor-pointer hover:text-white m-2 lg:m-0 lg:w-[35%]"><Link   to="/Empresa"  className="hover:cursor-pointer"><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={empresa} alt="company" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.empresa")} </h3>
-    </div></Link>
-    </div>
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="/Residencia"   ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={residencia} alt="Residence" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.residencia")}</h3>
-    </div></Link></div>
-    </div>
-    
-    <div className="flex flex-row lg:justify-around w-full  mb-5 lg:-mt-10 ">
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20  2xl:-mt-28  hover:bg-slate-900 hover:text-white hover:cursor-pointer m-2 lg:m-0 lg:w-[35%]"><Link  to="/Inmobiliaria"   ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={immobiliaria} alt="Real Estate" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.immo")}</h3>
-    </div></Link>
-    </div>
-    <div className="flex flex-col  shadow-2xl rounded-xl  bg-white lg:-mt-20   2xl:-mt-28 hover:bg-slate-900 hover:text-white m-2 lg:m-0 lg:w-[35%] hover:cursor-pointer"><Link  to="/Consergeria" ><div className="p-5 w-full h-full flex flex-col justify-evenly items-center "><img src={consergeria} alt="Concierge" className="mx-auto w-[60%] lg:w-1/2 lg:h-auto h-[100%]"/><h3 className="text-xl font-extrabold py-2">{t("inicio.conser")}</h3>
-    </div></Link>
-       </div>
-    </div>
-    
+      <div className='hidden lg:block'>
+        <div className='w-full fixed bottom-0 z-10  '>
+            <div className='backdrop-blur-lg rounded-xl w-[90%] max-w-3xl mx-auto'>
+                <div className='flex flex-row flex-wrap justify-evenly py-5'>
+                <Link to="/Empresa">
+                
+                <button onClick={scrollToTop}>
+                      <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold mb-3'>
+                          <img src={empresa} alt="company"  className='w-[50px] 2xl:w-[75px]'/>
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.empresa")}</h2>
+                      </div>
+                      </button>
+                </Link>
+                <Link to="/Residencia">
+                
+                <button onClick={scrollToTop}>
+                      <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold mb-3'>
+                          <img src={residencia} alt="Residence" className='w-[50px] 2xl:w-[75px]' />
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.residencia")}</h2>
+                      </div>
+                      </button>
+                </Link>
+                <Link to="/Inmobiliaria">
+                
+                <button onClick={scrollToTop}>
+                      <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold'>
+                          <img src={immobiliaria} alt="Real Estate"  className='w-[50px] 2xl:w-[75px]'/>
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.immo")}</h2>
+                      </div>
+                      </button>
+                </Link>
+                <Link to="/Conserjeria">
+                
+                <button onClick={scrollToTop}>
+                      <div className=' bg-white rounded-lg flex flex-col justify-around items-center w-[130px] 2xl:w-40 py-3 font-bold'>
+                          <img src={consergeria} alt="Concierge"  className='w-[50px] 2xl:w-[75px]'/>
+                          <h2 className='text-md lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.conser")}</h2>
+                      </div>
+                      </button>
+                </Link>
+                </div>
+            </div>
+        </div>
+
+
+  
+        </div>
+
+<div className='block lg:hidden'>
+<div className='w-full fixed bottom-0 z-10  '>
+<div className='backdrop-blur-lg rounded-xl w-[100%] max-w-3xl md:mx-auto '>
+<div className='flex flex-row flex-wrap justify-evenly bg-slate-100'>
+<Link to="/Empresa">
+
+<button onClick={scrollToTop}>
+  <div className='  bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
+  <MdOutlineBusinessCenter size={32} style={{ fill: 'darkcyan' }} />
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.empresa")}</h2>
+  </div>
+  </button>
+</Link>
+<Link to="/Residencia">
+
+<button onClick={scrollToTop}>
+  <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
+  <SlDocs size={32}  style={{ fill: 'darkcyan' }}/>
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.residencia")}</h2>
+  </div>
+  </button>
+</Link>
+<Link to="/Inmobiliaria">
+
+<button onClick={scrollToTop}>
+  <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
+  <BsHouseLock size={32} style={{ fill: 'darkcyan' }}/>
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.immo")}</h2>
+  </div>
+  </button>
+</Link>
+<Link to="/Conserjeria">
+
+<button onClick={scrollToTop}>
+  <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
+  <GiHouseKeys size={32} style={{ fill: 'darkcyan' }} />
+      <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.conser")}</h2>
+  </div>
+  </button>
+</Link>
 </div>
 </div>
-    </div>
+</div>
+
+</div>
+</div>
+    
   )
 }
 
