@@ -8,7 +8,6 @@ import Modal from './Modal.jsx';
 
 
 
-
 const Home = () => {
 
     const [t] = useTranslation("global");

@@ -3,6 +3,12 @@
 
 export const navLinks = [
   {
+    id: "Home",
+    title: "Hilltop Agency",
+
+  },
+  {
+  
     id: "Qui som?",
     title: "Quienes Somos?",
   },

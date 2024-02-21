@@ -1,13 +1,21 @@
 import { useState } from "react";
 
+<<<<<<< HEAD
+import { Forest } from '../assets/index';
+import { close, Logo2, menu } from "../assets";
+=======
 import { close, Forest, Logo2, menu } from "../assets";
+>>>>>>> a9cdc17359bf833c32e6eadef5589c44a1a8a602
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from "react-icons/hi";
 import { Link } from "react-router-dom";
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> a9cdc17359bf833c32e6eadef5589c44a1a8a602
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -22,12 +30,21 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex justify-between items-center navbar" style={{ backgroundImage: `url(${Forest})`,backgroundSize: 'cover' }}>
+<<<<<<< HEAD
+      <Link to="/"><img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  /></Link>
+      <div className="flex rounded-lg ml-3">
+                <button className="px-4 border-r-2 border-black font-bold" onClick={() => i18n.changeLanguage("en")} >EN</button>
+                <button className="px-4 border-r-2 border-black font-bold" onClick={() => i18n.changeLanguage("es")} >ES</button>
+                <button className="px-4 border-r-2 border-black font-bold" onClick={() => i18n.changeLanguage("fr")} >FR</button>
+                <button className="px-4 font-bold" onClick={() => i18n.changeLanguage("cat")} >CAT</button>
+=======
       <Link to='/'><img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  /></Link>
       <div className="flex ml-3 font-bold">
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("en")} >EN</button>
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("es")} >ES</button>
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("fr")} >FR</button>
                 <button className="px-4" onClick={() => i18n.changeLanguage("cat")} >CAT</button>
+>>>>>>> a9cdc17359bf833c32e6eadef5589c44a1a8a602
         </div>
        
 
@@ -40,7 +57,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <Link href={`/${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -67,7 +84,7 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <Link href={`/${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>

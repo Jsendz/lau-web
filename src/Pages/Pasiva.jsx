@@ -3,7 +3,7 @@ import React from 'react';
 import {useTranslation} from "react-i18next";
 
 import styles, { layout } from "../style";
-import Modal from './Modal';
+import Modal from '../Components/Modal';
 
 
 
