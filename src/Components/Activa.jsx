@@ -15,7 +15,7 @@ const Activa = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div id="activa" className="bg-no-repeat bg-sky w-full h-full" style={{ backgroundImage: `url(${Sky})`,backgroundSize: 'cover' }}>
+    <div id="activa" className="bg-no-repeat bg-sky w-full h-full" >
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">
