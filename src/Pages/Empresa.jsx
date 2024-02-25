@@ -14,39 +14,39 @@ const Empresa = () => {
           </div>
             <div className='w-[90%] lg:w-full text-left flex flex-col lg:flex-row lg:flex-wrap justify-around mx-auto lg:mx-0'>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.unotitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.unotitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.unoparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'> 
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.dostitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.dostitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.dosparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'> 
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.trestitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.trestitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.tresparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.fortitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.fortitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.forparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>   
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.cinctitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.cinctitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.cincparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.sistitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.sistitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.sisparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.setitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.setitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.separagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'>  
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.otitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.otitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.oparagrafo")}</p>
               </div>
               <div className='w-full lg:w-[30%] p-5 rounded-lg shadow-lg border-2 border-slate-400 mb-2'> 
-                <h4 className='text-2xl font-bold mb-2'>{t("empresa.nutitulo")}</h4>
+                <h4 className='2xl:text-2xl text-xl font-bold mb-2'>{t("empresa.nutitulo")}</h4>
                 <p className='text-md text-slate-600'>{t("empresa.nuparagrafo")}</p>
               </div>   
             </div>
