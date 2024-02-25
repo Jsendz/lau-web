@@ -20,7 +20,7 @@ const Navbar = () => {
     };
 
   return (
-    <nav className="w-full flex  items-center navbar" style={{ backgroundImage: `url(${Forest})`,backgroundSize: 'cover' }}>
+    <nav className="w-full flex  items-center navbar bg-forestweb bg-no-repeat bg-cover" >
       <Link to='/'><img src={Logo2} alt="logo Hilltop Agency " className="w-[100px]"  /></Link>
       <div className="flex ml-3 font-bold">
                 <button className="px-4 border-r-2 border-black" onClick={() => i18n.changeLanguage("en")} >EN</button>
