@@ -7,7 +7,7 @@ export default {
   theme: {
     backgroundImage: {
       'forest': "url('assets/forest2.webp')",
-      'sky': "url('assets/sky.webp')",
+      'sky': "url('assets/sky2.webp')",
     },
    
     extend: {
