@@ -1,6 +1,5 @@
 import React from 'react'
 import { Lau } from '../assets/index.js';
-
 import {useTranslation} from "react-i18next";
 import Modal from './Modal.jsx';
 

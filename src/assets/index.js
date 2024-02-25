@@ -11,7 +11,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import Logo2 from "./logohilltopagency.svg";
+import Logo2 from "./logohilltopagency2.svg";
 import Lau from "./Lau3.webp";
 import consergeria from "./consergeria2.webp";
 import residencia from "./docs2.webp";
