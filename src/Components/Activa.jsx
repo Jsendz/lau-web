@@ -1,7 +1,7 @@
 import React from 'react'
 import styles, { layout } from "../style";
 import {useTranslation} from "react-i18next";
-import {shield, Sky} from "../assets";
+import {shield} from "../assets";
 import Form from './Form';
 
 
@@ -15,7 +15,7 @@ const Activa = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div id="activa" className="bg-no-repeat w-full h-full" style={{ backgroundImage: `url(${Sky})`,backgroundSize: 'cover' }}>
+    <div id="activa" className="bg-no-repeat bg-skyweb w-full h-full" >
     <div className="lg:flex lg:flex-row justify-around items-center max-w-7xl mx-auto">
       
       <div className="w-full h-full my-20">

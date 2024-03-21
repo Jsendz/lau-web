@@ -83,7 +83,7 @@ const Options = () => {
 
 <button onClick={scrollToTop}>
   <div className='  bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
-  <MdOutlineBusinessCenter size={32} style={{ fill: 'darkcyan' }} />
+  <MdOutlineBusinessCenter size={32} style={{ fill: 'DeepSkyBlue' }} />
       <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.empresa")}</h2>
   </div>
   </button>
@@ -92,7 +92,7 @@ const Options = () => {
 
 <button onClick={scrollToTop}>
   <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold mb-3'>
-  <SlDocs size={32}  style={{ fill: 'darkcyan' }}/>
+  <SlDocs size={32}  style={{ fill: 'DeepSkyBlue' }}/>
       <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.residencia")}</h2>
   </div>
   </button>
@@ -101,7 +101,7 @@ const Options = () => {
 
 <button onClick={scrollToTop}>
   <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
-  <BsHouseLock size={32} style={{ fill: 'darkcyan' }}/>
+  <BsHouseLock size={32} style={{ fill: 'DeepSkyBlue' }}/>
       <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.immo")}</h2>
   </div>
   </button>
@@ -110,7 +110,7 @@ const Options = () => {
 
 <button onClick={scrollToTop}>
   <div className=' bg-slate-100 flex flex-col justify-evenly md:justify-around items-center w-[90px] h-[90px] lg:w-36 lg:h-[100px] py-1 font-bold'>
-  <GiHouseKeys size={32} style={{ fill: 'darkcyan' }} />
+  <GiHouseKeys size={32} style={{ fill: 'DeepSkyBlue' }} />
       <h2 className='text-sm lg:text-lg 2xl:text-xl lg:py-2'>{t("inicio.conser")}</h2>
   </div>
   </button>

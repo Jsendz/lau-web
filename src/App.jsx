@@ -10,14 +10,6 @@ import Empresa from './Pages/Empresa.jsx';
 
 
 
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import Footer from './Components/Footer';
-import Residencia from './Pages/Residencia';
-import Activa from './Components/Activa';
-import Inmobiliaria from './Pages/Inmobiliaria';
-import Consergeria from './Pages/Consergeria';
-import Options from './Components/Options';
 
 
 

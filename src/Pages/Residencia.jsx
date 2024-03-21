@@ -6,8 +6,8 @@ const Residencia = () => {
   return (
     <div>
         <Residencias />
-        <Pasiva />
         <Activa />
+        <Pasiva />
     </div>
   )
 }
