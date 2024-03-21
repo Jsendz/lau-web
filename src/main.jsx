@@ -9,6 +9,7 @@ import global_en from './Translations/en/global.json';
 import global_fr from './Translations/fr/global.json';
 import global_cat from './Translations/cat/global.json';
 import { ChakraProvider } from '@chakra-ui/react';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 i18next.init({
@@ -38,7 +39,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>
     <I18nextProvider i18n={i18next}>
+    <HelmetProvider context={helmetContext}>
     <App />
+    </HelmetProvider>
     </I18nextProvider>
     </ChakraProvider>
   </React.StrictMode>
