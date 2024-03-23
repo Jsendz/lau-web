@@ -5,6 +5,7 @@ import styles, { layout } from "../style.js";
 import { house } from '../assets/index.js';
 import Modal from '../Components/Modal.jsx';
 import {useTranslation} from "react-i18next";
+import { Helmet } from 'react-helmet-async';
 
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -29,6 +30,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
     return (
     <section  id="inmobiliaria" className="flex flex-col lg:flex-row h-full lg:h-screen w-full max-w-7xl lg:mx-auto justify-around items-center mb-40 lg:mb-0 lg:mt-40">
+       <Helmet>
+        <title>{t("immo.pagina")}</title>
+        <meta name="description" content={t("immo.paragrafo")}/>
+      </Helmet>
        <div className="w-full h-full mb-20 lg:mb-0 ">
         <img src={house} alt="" className="mx-auto" />
             

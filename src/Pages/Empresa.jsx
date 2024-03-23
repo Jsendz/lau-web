@@ -1,5 +1,7 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import {useTranslation} from "react-i18next";
+
 
 const Empresa = () => {
 
@@ -7,12 +9,10 @@ const Empresa = () => {
 
   return (
     <div className='h-full 2xl:h-screen w-full flex flex-col justify-around items-center lg:my-10 2xl:my-20 mb-20'>
-        <Seo
-        title="Hilltop Agency Andorra | Empresa"
-        description="En Hilltop Agency, nos especializamos en brindar servicios integrales que simplifican y agilizan todo el proceso para empresas que desean realizar una inversión extranjera o ejercer actividades en nombre propio en Andorra."
-        type="webapp"
-        name="Hilltop Agency"
-      />
+        <Helmet>
+        <title>{t("empresa.pagina")}</title>
+        <meta name="description" content={t("empresa.paragrafo")}/>
+      </Helmet>
         <div className='max-w-5xl mx-auto flex flex-col' >
           <div className=' my-10 xl:my-20 '>
             <h3 className='text-4xl sm:text-5xl font-extrabold antialiased my-10 text-slate-700'>{t("empresa.titulo")}</h3>

@@ -35,6 +35,8 @@ i18next.init({
 
 })
 
+const helmetContext = {};
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ChakraProvider>

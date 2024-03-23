@@ -12,6 +12,7 @@
     },
 
     "immo": {
+        "pagina":"HillTop Agency - Real Estate Andorra",
         "titulo": "Real Estate.",
         "paragrafo":"One of the most important steps is to find housing in Andorra, that is why at HillTop Agency, with 10 years of experience in the real estate sector, we want to make the search easier for our clients by personally taking care of the entire process. We adapt to the needs of each client in order to ensure the best quality of service and experience.",
         "boton": "Contact us"
@@ -20,7 +21,7 @@
 
     "residencia": {
         "titulo":"Residency in Andorra",
-        "paragrafo": "At HILLTOP AGENCY, we will accompany you throughout the processing of the residency in Andorra that best suits your needs, facilitating the process at all times so that you can enjoy it as soon as possible.",
+        "paragrafo": "At HILLTOP AGENCY, we will accompany you throughout the processing of setting up active or passive residency in Andorra, facilitating the process at all times so that you can enjoy it as soon as possible.",
         "boton":"Contact Us",
         "unotitulo":"Active Residency",
         "unoparagrafo":"Active tax residency is granted to people who work in Andorra and there are two ways to obtain it",
@@ -59,6 +60,7 @@
     },
 
     "conser": {
+        "pagina":"HillTop Agency - Admin and Concierge Services",
         "titulo":"Admin and Concierge Services",
         "paragrafo":"At Hilltop Agency, we understand that your time and peace of mind are of great value. We are dedicated to simplifying your life by handling a variety of tasks and procedures, allowing you to focus on what truly matters. Below, we present our main services:",
         "unotitulo":"Administrative Procedures",
@@ -78,6 +80,7 @@
     },
 
     "empresa": {
+        "pagina":"HillTop Agency - Setting up a company in Andorra",
         "titulo":"Corporate",
         "paragrafo":"At Hilltop Agency, we specialize in providing comprehensive services that simplify and streamline the entire process for companies looking to make a foreign investment or conduct activities on their own behalf in Andorra.",
         "unotitulo":"Commercial Name Reservation Request:",

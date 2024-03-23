@@ -12,6 +12,7 @@
     },
 
     "immo": {
+        "pagina":"HillTop Agency - Immobiliaria Andorra",
         "titulo": "Immobiliaria.",
         "paragrafo":"Un dels passos més importants és trobar habitatge a Andorra, per això a HillTop Agency amb 10 anys d'experiència al sector immobiliari, volem facilitar als nostres clients la cerca ocupant-nos personalment de tot el procés. Ens adaptem a les necessitats de cada client per assegurar la millor qualitat de servei i experiència.",
         "boton": "Contacta'ns"
@@ -19,8 +20,9 @@
     },
 
     "residencia": {
+        "pagina":"HillTop Agency - Residencia a Andorra",
         "titulo":"Residencia a Andorra",
-        "paragrafo":"A HILLTOP AGENCY, t'acompanyarem en tota la tramitació de la residència a Andorra que més s'adapti a les teves necessitats, facilitant en tot moment el procés perquè en puguis gaudir el més aviat possible.",
+        "paragrafo":"A HILLTOP AGENCY, t'acompanyarem en tota la tramitació de la residència passiva o activa a Andorra, facilitant en tot moment el procés perquè en puguis gaudir el més aviat possible.",
         "boton":"Contactan's",
         "unotitulo":"Residencia Activa",
         "unoparagrafo":"La residència fiscal activa s'atorga a les persones que treballen a Andorra i hi ha dues maneres per obtenir-la.",
@@ -63,6 +65,7 @@
     
 
     "conser": {
+        "pagina":"HillTop Agency - Serveis Administratius i Consergeria",
         "titulo":"Serveis Administratius i Consergeria",
         "paragrafo":"A Hilltop Agency, entenem que el teu temps i tranquil·litat tenen un gran valor. Ens dediquem a simplificar la teva vida encarregant-nos d'una varietat de gestions i tràmits, permetent-te centrar-te en el que realment importa. A continuació, et presentem els nostres serveis principals:",
         "unotitulo":"Tràmits Administratius",
@@ -82,6 +85,7 @@
     },
 
     "empresa": {
+        "pagina":"HillTop Agency - Creació d'Empresa a Andorra",
         "titulo":"Empresa",
         "paragrafo":"A Hilltop Agency, ens especialitzem en oferir serveis integrals que simplifiquen i agilitzin tot el procés per a empreses que desitgen realitzar una inversió estrangera o exercir activitats a títol personal a Andorra.",
         "unotitulo":"Sol·licitud de Reserva de Nom Comercial:",

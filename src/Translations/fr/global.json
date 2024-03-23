@@ -12,6 +12,7 @@
     },
 
     "immo": {
+        "pagina":"HillTop Agency - Immobilier",
         "titulo": "Immobilier.",
         "paragrafo":"L'une des étapes les plus importantes est de trouver un logement en Andorre, c'est pourquoi chez HillTop Agency, avec 10 ans d'expérience dans le secteur immobilier, nous souhaitons faciliter la recherche de nos clients en nous occupant personnellement de tout le processus. Nous nous adaptons aux besoins de chaque client afin d'assurer la meilleure qualité de service et d'expérience.",
         "boton": "Contactez-nous"
@@ -19,8 +20,9 @@
     },
 
     "residencia": {
+        "pagina":"HillTop Agency - Devenir Resident en Andorre",
         "titulo": "Residence en Andorre",
-        "paragrafo":"Chez HILLTOP AGENCY, nous vous accompagnerons tout au long du processus de résidence en Andorre qui correspond le mieux à vos besoins, en facilitant le processus à tout moment afin que vous puissiez en profiter le plus rapidement possible.",
+        "paragrafo":"Chez HILLTOP AGENCY, nous vous accompagnerons tout au long du processus de résidence active ou passive en Andorre, en facilitant le processus à tout moment afin que vous puissiez en profiter le plus rapidement possible.",
         "boton":"Contactez-nous",
         "unotitulo":"Residence Active",
         "unoparagrafo":"La résidence fiscale active est accordée aux personnes qui travaillent en Andorre et il existe deux manières de l'obtenir.",
@@ -59,6 +61,7 @@
     },
 
     "conser": {
+        "pagina":"HillTop Agency - Services Administratif et Conciergerie",
         "titulo":"Services Administratif et Conciergerie",
         "paragrafo":"À Hilltop Agency, nous comprenons que votre temps et votre tranquillité sont d'une grande valeur. Nous nous consacrons à simplifier votre vie en prenant en charge une variété de tâches et de formalités, vous permettant de vous concentrer sur ce qui compte réellement. Voici nos principaux services :",
         "unotitulo":"Formalités Administratives",
@@ -78,6 +81,7 @@
     },
 
     "empresa": {
+        "pagina":"HillTop Agency - Société en Andorre",
         "titulo":"Société",
         "paragrafo":"Chez Hilltop Agency, nous sommes spécialisés dans la fourniture de services complets qui simplifient et accélèrent l&#39;ensemble du processus pour les entreprises souhaitant réaliser un investissement étranger ou exercer des activités en leur nom propre en Andorre.",
         "unotitulo":"Demande de Réservation de Nom Commercial:",

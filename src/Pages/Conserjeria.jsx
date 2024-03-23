@@ -7,6 +7,7 @@ import { MdConstruction } from "react-icons/md";
 import { MdEmergency } from "react-icons/md";
 import { FaHouseChimneyMedical } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
+import { Helmet } from 'react-helmet-async';
 
 
 
@@ -16,12 +17,10 @@ const Conserjeria = () => {
 
   return (
     <div id="Consergeria" className="w-full h-full bg-[#F3FAFF] bg-no-repeat bg-cover py-10 md:py-20">
-       <Seo
-        title="Hilltop Agency Andorra | Servicios Administrativos y Conserjeria"
-        description="En Hilltop Agency, entendemos que tu tiempo y tranquilidad son de gran valor. Nos dedicamos a simplificar tu vida ocupándonos de una variedad de gestiones y trámites, permitiéndo enfocarte en lo que realmente importa"
-        type="webapp"
-        name="Hilltop Agency"
-      />
+       <Helmet>
+        <title>{t("conser.pagina")}</title>
+        <meta name="description" content={t("conser.paragrafo")}/>
+      </Helmet>
       <div className="max-w-7xl 2xl:max-w-[1500px]  rounded-lg mx-auto">
        <div className="flex flex-col lg:flex-row lg:justify-around mb-20 mx-autorounded-lg bg-cover w-[90%] mx-auto ">
         <div className="w-full text-left  ">
