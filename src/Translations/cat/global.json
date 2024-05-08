@@ -20,23 +20,23 @@
     },
 
     "residencia": {
-        "pagina":"HillTop Agency - Residencia a Andorra",
-        "titulo":"Residencia a Andorra",
+        "pagina":"HillTop Agency - Residència a Andorra",
+        "titulo":"Residència a Andorra",
         "paragrafo":"A HILLTOP AGENCY, t'acompanyarem en tota la tramitació de la residència passiva o activa a Andorra, facilitant en tot moment el procés perquè en puguis gaudir el més aviat possible.",
         "boton":"Contactan's",
-        "unotitulo":"Residencia Activa",
+        "unotitulo":"Residència Activa",
         "unoparagrafo":"La residència fiscal activa s'atorga a les persones que treballen a Andorra i hi ha dues maneres per obtenir-la.",
-        "dostitulo":"Residencia Passiva",
+        "dostitulo":"Residència Passiva",
         "dosparagrafo":"Els permisos de residència passiva permeten residir físicament a Andorra, però no donen dret a treballar. Hi ha fins a tres tipus de residència passiva que es poden sol·licitar a Andorra",
         "trestitulo": "Residència per Reagrupament",
         "tresparagrafo": "Aquest permís permet a persones que tinguin permís de residència a Andorra sol·licitar el permís de residència per;",
-        "dosboton":"Mes Informacio!"
+        "dosboton":"Més Informació!"
 
     },
     
 
     "activa": {
-        "titulo":"Residencia Activa",
+        "titulo":"Rèsidencia Activa",
         "paragrafo":"La residència fiscal activa s'atorga a les persones que treballen a Andorra i hi ha dues maneres per obtenir-la:",
         "boton":"Contactan's",
         "unotitulo":"Residència activa per compte propi",
@@ -52,7 +52,7 @@
     },
 
     "pasiva": {
-        "titulo": "Residencia Pasiva",
+        "titulo": "Residència Passiva",
         "paragrafo":"Els permisos de residència passiva permeten residir físicament a Andorra, però no donen dret a treballar. Hi ha fins a tres tipus de residència passiva que es poden sol·licitar a Andorra",
         "unotitulo": "Residència sense activitat lucrativa",
         "unoparagrafo": "Autoriza a residir en el país sin ejercer actividad laboral ni profesional. Este tipo de residencia se realiza por inversión en activos andorranos (inversión mínima de 600.000€) más un depósito reembolsable de 47.500 euros a l’AFA (Agencia Financiera Andorrana) y 9.500 euros adicionales por persona a cargo. Se debe establecer la residencia principal y efectiva en el Principado de Andorra durante al menos 90 días al año.",
